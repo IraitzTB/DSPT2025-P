@@ -1,0 +1,12 @@
+[project]
+name = "dspt2025-p"
+version = "0.1.0"
+description = "Mi proyecto ejemplo"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.30.0",
+    "scikit-learn>=1.7.1",
+    "skrub>=0.6.0",
+    "streamlit>=1.47.1",
+]
