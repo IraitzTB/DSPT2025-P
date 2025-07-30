@@ -5,6 +5,7 @@ description = "Mi proyecto ejemplo"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi[standard]>=0.116.1",
     "ipykernel>=6.30.0",
     "scikit-learn>=1.7.1",
     "skrub>=0.6.0",
