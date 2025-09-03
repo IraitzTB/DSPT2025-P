@@ -23,5 +23,5 @@ jobs:
     - uses: actions/checkout@v4
     - name: 'Build Inventory Image'
       run: |
-        docker build . --tag ghcr.io/iraitzm/dsptbil2025-streamlit-iris:$(date +%s)
-        docker push ghcr.io/iraitzm/dsptbil2025-streamlit-iris:$(date +%s)
+        docker build . --tag ghcr.io/iraitzm/dsptbil2025-streamlit-iris
+        docker push ghcr.io/iraitzm/dsptbil2025-streamlit-iris:latest
