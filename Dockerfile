@@ -13,6 +13,6 @@ COPY requirements.txt .
 
 RUN pip3 install -r requirements.txt
 
-CMD ["streamlit", "run", "app/streamlit_app.py"]
+CMD ["fastapi", "run", "app/main.py"]
 
-EXPOSE 8501
+EXPOSE 8000
